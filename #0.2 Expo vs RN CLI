@@ -1,0 +1,12 @@
+What is the 'Expo'?
+리엑트 네이티브랑 어떤 관련이 있을까?
+기본적으로 Expo는 create-react-app 같은 것 or 리엑트 네이티브를 위한 설정 파일같은 것들이 없는 방식으로
+
+<Pros>
+Expo's huge plus is you can test application on your phone!
+
+<Cons>
+can not control so much native file's things 
+
+<정리>
+Expo 는 수동적인 작업 덜 필요, 시작하는데 훨씬 더 빠른 방식
