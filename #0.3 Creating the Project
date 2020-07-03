@@ -1,0 +1,9 @@
+명령 프롬프트
+
+1. cd Documents (cd = change directory)
+2. expo init [폴더 or 프로젝트 이름]
+3. Black 선택 (왜? 초보니까 zero 부터 시작) 
+4. ㄱㄷㄱㄷ
+5. cd [생성한 프로젝트 이름]
+6. Github, create a new repository
+7. git remote add origin [repo 주소] 추가 // github 원격저장소와 연동과정
