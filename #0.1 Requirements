@@ -1,1 +1,27 @@
+// Cmd
+// check node.js version, more than 10ver
+node -v 
+
+// check npm version, more than 6ver
+npm -v 
+
+// + if using MAC, You need to download 'Xcode'
+// + if using Other OS things, depend on Window, Linux, Android studio
+// Don't you want to do it? it is okay~~ if you have your phone thanks to 'Expo'
+
+// About 'Expo' => u can check project own your phone!
+
+// NEED THINGS
+// 1. node.js version, more than 10ver
+// 2. npm version, more than 6ver, 
+// <SIMULATOR> (depend on your choice)
+// -----------------------------------
+// | Window, Linux => Android Studio |
+// | MAC OS => Xcode                 |
+// | Your Phone => Expo              |
+// -----------------------------------
+
+npm install -g expo-cli
+
+if occur error about code ENOLOCAL
 
