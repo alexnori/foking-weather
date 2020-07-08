@@ -1,0 +1,18 @@
+VSCODE에서 'npm start'라는 명령어를 보내자
+그러면 expo development tool로 localhost웹페이지가 생성된다
+생성된 이래로 QR코드를 스마트폰에서 expo를 실행시켜 코드를 인식하면 스마트폰 화면에 시뮬레이터가 작동된다.
+*같은 wifi를 사용할 것!*
+
+App.js에서 <Text>hello!!!</Text> 로 변경해서 확인하기
+스마트폰을 흔들면 개발자 옵션 창이 뜸
+
+다른 유용한 명령어
+{
+  // android
+  yarn android
+  npm run android
+  
+  // ios
+  yarn ios
+  npm run ios
+}
