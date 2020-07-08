@@ -1,0 +1,7 @@
+리엑트 네이티브에서 레이아웃 규칙들
+<text>/<text> 
+<text>/<text> 
+2개 할시 한 줄로 내려가는 이유: 리엑트 네이티브에서 모든 flex box의 디폴트가 flexDirection:column 임
+물론 flexDirection: "row", 로 변경 가능
+
+flex레이아웃
