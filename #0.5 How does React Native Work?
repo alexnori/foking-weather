@@ -1,0 +1,31 @@
+# 어떻게 React가 작동할까?
+
+모바일 앱을 만드는 3가지 다른 방법
+
+1. 완전 Native 
+   Swift, objective-c로 IOS앱 만드는 것 => Xcode
+   Java, Kotlin으로 Android앱 만드는 것 => Android Studio
+2. 하이브리드, 웹뷰 방식
+   앱 기반 웹뷰를 만드는 것
+   간단한, 매우 심플한 앱을 만듦
+   껍데기 / Cordova, PhoneGap (Native) 이용
+   그 안에 HTML,CSS,JS 넣는 것 
+   앱 안에서 작동하는 웹사이트 같은 것
+3. React Native
+   Android, IOS 둘다 자바스크립트를 실행가능 <= Why? 자바스크립트 엔진을 가지고 있기 때문
+   리엑트 네이티브가 하는 일: 자바스크립트를 이용해서 Android,IOS의 Native 엔진에게 (자바스크립트를 이용한) 메세지를 보내는 것
+   '연결을 이어주는 징검다리(브릿지)' 같은 존재
+   단점: 이 역할이 느린 성능을 유발, 많은 데이터를 보낼 시 브릿지에 교통체증 처럼 부하가 걸림
+   인스타나 데이팅 앱같은 것이면 괜찮은데 3D비디오 게임같은 데이터가 많이 필요한 것은 단점이 부각됨 => 코드를 최적화 하는데 많은 시간 소요
+   
+   리엑트 네이티브의 목적: 자바스크립트와 폰의 코드 사이의 커뮤니케이션을 쉽게 하려고 만든 것
+   
+   # 컴포넌트
+   View 는 HTML에서 <div> 같은 것
+   
+   # Expo Error
+   connection reset => read ECONNRESET
+   npm run start, yarn start 실행
+   
+   웹사이트 처럼 작동되지 않는 것도 있음
+   
