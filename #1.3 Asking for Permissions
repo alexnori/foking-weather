@@ -1,0 +1,17 @@
+Permission을 요청 / Location.requestPermissionAsync()
+
+Q. Async란? 
+[Async 와 Sync]
+/ Sync 란?
+실행 순서가 절차 적이다.
+코드의 작성 순서대로 실행된다.
+/ Async 란?
+Async는 전 명령의 수행이 끝나지 않아도 다음 명령을 실행한다는 의미이다.
+
+async는 await가 필요
+Q. 왜?
+
+console.log로 실험해보자
+
+사용자가 Permission을 주지 않는다면 경고 Alert 알람을 발생
+상
