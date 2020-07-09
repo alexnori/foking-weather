@@ -1,0 +1,26 @@
+React native 방문 -> API -> 검색창: Geolocation 검색
+문제: Geolocation 이 그렇게 파워풀 하지 못함
+[할 수 있는 것들]
+현재 위치 가져오기 / getCurrentPosition
+위치를 지켜보기 / watchPosition
+위치 지켜보기 해제  / clearWatch
+관찰 멈추기  /stopObserving
+
+근데 괜찮음 -> 지금 만드는 것엔 getCurrentPosition만 필요하니깐 ㅎㅎ
+
+이번엔 expo로 가보자
+
+document -> reference -> 오른쪽 창에서 location 클릭
+
+아래에 한번씩 훝어보세욘
+
+Installation에서 밑과 같은 명령어를 볼 수 있음
+expo install expo-location
+== npm install expo-location
+== yarn install expo-location
+다 같아요(차이는 expo에서 npm에서 하냐에 차이) expo 안되면 밑에꺼 한번씩 실행해보면서 되는 걸로 해보세요
+
+import * as Location from 'expo-location'; // *(==모든 것), 그냥 모든 것을 가져오는게 편합니다
+
+
+
